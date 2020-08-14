@@ -1,0 +1,1 @@
+SELECT userId as UserId, AVG(duration) as AverageDuration FROM sessions GROUP BY userId HAVING COUNT(*) > 1
